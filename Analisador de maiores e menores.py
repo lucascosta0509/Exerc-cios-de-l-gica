@@ -1,6 +1,6 @@
 numeros = [12, 45, 2, 89, 34, 21, 0, -5, 66]
-maior_numero = 0
-menor_numero = 0
+maior_numero = numeros[0]
+menor_numero = numeros[0]
 for numero in numeros:
     if numero < menor_numero:
         menor_numero = numero
